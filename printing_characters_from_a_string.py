@@ -8,6 +8,7 @@ def even_index_characters(input_string):
     
     return even_index_characters
 #accepting user input for a string
+input_string = input("Please enter a string: ")
 #getting the characters from even index
 #printing the chracters from even index
 #for adding newline character after each character
