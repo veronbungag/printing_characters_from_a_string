@@ -2,6 +2,11 @@
 def even_index_characters(input_string):
     even_index_characters = []
 #for loop
+    for i in range(len(input_string)):
+        if i % 2 == 0:
+            even_index_characters.append(input_string[i])
+    
+    return even_index_characters
 #accepting user input for a string
 #getting the characters from even index
 #printing the chracters from even index
