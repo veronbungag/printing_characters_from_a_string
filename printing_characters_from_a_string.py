@@ -12,4 +12,5 @@ input_string = input("Please enter a string: ")
 #getting the characters from even index
 even_index_characters = even_index_characters(input_string)
 #printing the chracters from even index
+print("Characters from even index are: ", end="") 
 #for adding newline character after each character
