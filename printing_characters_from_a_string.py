@@ -11,6 +11,9 @@ def even_index_characters(input_string):
 input_string = input("Please enter a string: ")
 #getting the characters from even index
 even_index_characters = even_index_characters(input_string)
-#printing the chracters from even index
+#printing the characters from even index
 print("Characters from even index are: ", end="") 
 #for adding newline character after each character
+for char in even_index_characters:
+    print(char, end=" \n") 
+    
